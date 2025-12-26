@@ -1,2 +1,2 @@
 # Projekti-Gr-19
-Ky projekt  është realizuar përmes ë bashkpunimit në veglen GitHub
+Ky projekt  është realizuar përmes bashkpunimit në veglen GitHub
