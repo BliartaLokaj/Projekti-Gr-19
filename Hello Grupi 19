@@ -1,7 +1,18 @@
 #include <iostream>
 using namespace std;
 
+//Funksioni ndihmes add
+int add(int a,int b,) {
+return a + b;
+}
+
 int main() {
+//commit 1:Hello grupi 19
 cout <<"Hello,Projekti-Gr-19 Github"<< endl;
+
+//commit 2:perdorim funksionin add brenda main per tekstin
+int x = 5, y = 10;
+cout << "Shuma e " << x << " dhe " << " eshte: " << add (x, y) << endl;
+
 return 0
 }
