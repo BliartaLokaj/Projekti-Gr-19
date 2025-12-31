@@ -1,34 +1,29 @@
-# Game Project – C++
+# Guess the Number
 
-## Përshkrimi
-Ky projekt është një program i thjeshtë në C++ që simulon një lojë me menu.
-Përdoruesi zgjedh veprime përmes opsioneve në menu dhe programi funksionon
-me anë të një loop-i, ku pas çdo veprimi kthehet prapa në menu derisa
-përdoruesi zgjedh të dalë nga loja.
+## Përshkrimi i Projektit
+Ky është një projekt i thjeshtë në **C++** që implementon lojën **"Guess the Number"**.  
+Qëllimi i lojës është që përdoruesi të gjejë një numër të fshehtë të gjeneruar random nga kompjuteri.  
+Lojëtorët marrin feedback për çdo përpjekje: nëse numri i zgjedhur është më i lartë ose më i ulët se numri i fshehtë, duke i mundësuar përdoruesit të rregullojë guess-et e tij deri në momentin që gjen numrin e saktë.  
 
-Algoritmi i programit është i paraqitur edhe përmes diagramit në draw.io,
-ku shfaqen kushtet, vendimet dhe kthimi prapa (loop).
+Ky projekt demonstron:  
+- Përdorimin e variablave dhe tipeve të dhënash në C++  
+- Përdorimin e loop-eve (`while`) për iterim deri në plotësimin e kushteve  
+- Vendimmarrjen me struktura kushti (`if`, `else if`, `else`)  
+- Gjenerimin e numrave random dhe inicializimin e tyre me `srand(time(0))`  
 
-## Funksionaliteti
-- Shfaq një menu me opsione
-- Merr input nga përdoruesi
-- Ekzekuton veprime sipas zgjedhjes
-- Përdor loop për kthim në menu
-- Lejon daljen nga programi
+---
 
-## Bashkëpunimi
-- Projekti zhvillohet në grup prej 4 anëtarësh
-- Secili anëtar punon në branch-in e vet
-- Ndryshimet dërgohen përmes Pull Request
-- Integrimi bëhet në main branch pas rishikimit të kodit
+## Funksionalitete
+- Gjenerim i numrit random nga 1-100  
+- Input nga përdoruesi për guess  
+- Feedback “Too high” ose “Too low”  
+- Numërimi i tentativave dhe shfaqja e tyre në fund  
+- Përfundimi i lojës kur numri i saktë gjendet  
 
-## Si të nisni projektin lokalisht
-1. Klononi repository-n nga GitHub
-2. Hapni file-in `.sln` në Visual Studio
-3. Zgjidhni `Start` ose shtypni `F5`
-4. Ndiqni udhëzimet në menu
+---
 
-## Teknologjitë
-- Gjuha programuese: C++
-- IDE: Visual Studio
-- Version Control: Git & GitHub
+## Si të përdoret
+1. Klono ose shkarko këtë repository.  
+2. Kompilo programin me:  
+   ```bash
+   g++ guess_the_number.cpp -o guess_the_number
