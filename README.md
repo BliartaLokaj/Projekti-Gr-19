@@ -4,3 +4,4 @@ Ky projekt  është realizuar përmes bashkpunimit në veglen GitHub
 -Aurora Krasniqi
 -Atien Mati
 -Blerta Lekaj
+-Bliarta Lokaj
